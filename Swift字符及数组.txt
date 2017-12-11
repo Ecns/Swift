@@ -1,0 +1,14 @@
+字符
+使用A.append(B)的方法来连接两个字符串
+使用for循环可以遍历字符串(使用.characters方法)
+	for ch in "Hello".characters {
+		print(ch)
+	}
+数组
+可以用var a = [Int]()来声明一个数组，也可以在声明时表明它的长度及初始值
+	var someArray = [SomeType](repeating: InitialValue, count: NumbeOfElements)
+可以使用append方法在数组最后加入一个值 或者使用 += 来实现该功能
+可以使用for in 循环来遍历数组 for index in 数组名 {print 输出}
+可以使用数组名.enumerated()方法来获取索引及数组值
+
+
